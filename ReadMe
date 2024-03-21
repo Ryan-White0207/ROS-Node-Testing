@@ -1,0 +1,11 @@
+Written by: Ryan White
+SID: 200291396
+
+*to run package:
+1)unzip ar_week8_test.zip folder in the catkin workspace
+2)Open a terminal and run roscore
+3)Open a new terminal keeping the previouse reminal running and run catkin_make in the catkin directory
+4)now run the cubic_traj_gen.launcher to see plot graph and execute program using 'roslaunch ar_week8_test cubic_traj_gen.launch'
+5) in a new terminal run 'rqt_graph' to see diagram
+6)ctrl+C to end program
+*END

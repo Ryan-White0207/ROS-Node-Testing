@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="ar_week8_test" type="points_generator.py"  name="Generator" />
+    <node pkg="ar_week8_test" type="cubic_traj_planner.py"  name="Planner" />
+    <node pkg="ar_week8_test" type="compute_cubic_coeffs.py"  name="Computer" />
+    <node pkg="ar_week8_test" type="plot_cubic_traj.py"  name="Plotter" />
+    <node pkg="rqt_plot" type ="rqt_plot" name="graph" args="/position_trajectory /velocity_trajectory /acceleration_trajectory"/>
+</launch>
